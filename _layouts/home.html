@@ -96,16 +96,46 @@
     {% include footer.html %}
 
     <script>
-    // Check if the user already accepted
-    if (localStorage.getItem("ageConfirmed") === "false") {
+    // Run this after DOM is loaded
+    window.addEventListener("DOMContentLoaded", () => {
+    if (isAgeConfirmed()) {
+      showMainContent();
+    } else {
       showAgeWarning();
     }
+  });
+
+const AGE_CONFIRM_EXPIRY_HOURS = 24;
+
+  function isAgeConfirmed() {
+    const confirmed = localStorage.getItem("ageConfirmed");
+    const confirmedAt = localStorage.getItem("ageConfirmedAt");
+
+    if (!confirmed || !confirmedAt) return false;
+
+    const now = Date.now();
+    const timeDiff = now - parseInt(confirmedAt, 10);
+    const hoursPassed = timeDiff / (1000 * 60 * 60);
+
+    return confirmed === "true" && hoursPassed < AGE_CONFIRM_EXPIRY_HOURS;
+  }
 
     function acceptAge() {
       localStorage.setItem("ageConfirmed", "true");
       document.getElementById("age-warning").style.display = "none";
       document.getElementById("main-content").style.display = "block";
     }
+
+function acceptAge() {
+    localStorage.setItem("ageConfirmed", "true");
+    localStorage.setItem("ageConfirmedAt", Date.now().toString());
+    showMainContent();
+  }
+
+  function showMainContent() {
+    document.getElementById("age-warning").style.display = "none";
+    document.getElementById("main-content").style.display = "block";
+  }
 
 function showAgeWarning() {
     document.getElementById("age-warning").style.display = "flex";
