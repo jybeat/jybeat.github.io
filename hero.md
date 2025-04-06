@@ -15,14 +15,16 @@ nav-menu: true
 
     .video-container {
       width: 100%;
-      max-width: 100%;
-      height: auto;
-        max-height: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
     }
 
     video {
       width: 100%;
       height: auto;
+      max-height: 50vh;
       display: block;
     }
   </style>
