@@ -120,12 +120,6 @@ const AGE_CONFIRM_EXPIRY_HOURS = 24;
     return confirmed === "true" && hoursPassed < AGE_CONFIRM_EXPIRY_HOURS;
   }
 
-    function acceptAge() {
-      localStorage.setItem("ageConfirmed", "true");
-      document.getElementById("age-warning").style.display = "none";
-      document.getElementById("main-content").style.display = "block";
-    }
-
 function acceptAge() {
     localStorage.setItem("ageConfirmed", "true");
     localStorage.setItem("ageConfirmedAt", Date.now().toString());
