@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: PMV
 description: Create high quality porn music videos with porn and music of your choice
 image: assets/images/logo2.png
