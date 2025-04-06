@@ -6,7 +6,7 @@ image: assets/images/logo2.png
 nav-menu: true
 ---
 
-<video src="assets/videos/joi.mp4" controls width="640" height="360">
+<video src="assets/videos/joi.mp4" controls>
   Your browser does not support the video tag.
 </video>
 
