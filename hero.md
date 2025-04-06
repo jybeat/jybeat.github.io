@@ -22,9 +22,9 @@ nav-menu: true
     }
 
     video {
-      width: 100%;
       height: auto;
       max-height: 50vh;
+      max-width: 100%;
       display: block;
     }
   </style>
