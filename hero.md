@@ -15,12 +15,6 @@ Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venen
 
 
 <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: sans-serif;
-    }
-
     .video-container {
       width: 100%;
       display: flex;
