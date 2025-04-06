@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: JOI
 description: Add jerk off instructions to music videos or create cock hero style videos
 image: assets/images/logo2.png
