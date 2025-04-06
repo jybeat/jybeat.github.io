@@ -6,9 +6,34 @@ image: assets/images/logo2.png
 nav-menu: true
 ---
 
-<video src="assets/videos/joi.mp4" controls>
-  Your browser does not support the video tag.
-</video>
+<style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    .video-container {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+    }
+
+    video {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="video-container">
+    <video controls autoplay muted>
+      <source src="assets/videos/joi.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
 
 Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.
 
