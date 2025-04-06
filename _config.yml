@@ -3,7 +3,7 @@ title: Jerk your beat
 subtitle: by jybeat
 email: jybeat@protonmail.com
 description: Porn in sync with your music.
-baseurl: "/jybeat" # the subpath of your site, e.g. /blog
+baseurl: # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
 # street_address: ---
