@@ -6,7 +6,7 @@ image: assets/images/logo2.png
 nav-menu: true
 ---
 
-Add instructions to your videos to create a unique jerk off experience. There are tons of option to modify the instructions, so they will exactly match your taste! And the best thing is: JOI is synchronized with your music! This ensures a smooth experience found nowhere else. 
+Add instructions to your videos to create a unique jerk off experience. There are tons of optios to modify the instructions, so they will exactly match your taste! And the best thing is: JOI is synchronized with your music! This ensures a smooth experience found nowhere else. 
 
 <style>
     .video-container {
