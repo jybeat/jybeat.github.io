@@ -8,44 +8,6 @@ author: null
 show_tile: false
 ---
 
-<head>
-
- /* Overlay */
-    #age-warning {
-      position: fixed;
-      top: 0; left: 0;
-      width: 100vw;
-      height: 100vh;
-      background-color: rgba(0, 0, 0, 0.9);
-      color: white;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      z-index: 9999;
-    }
-
-    #age-warning button {
-      margin-top: 1em;
-      padding: 0.75em 1.5em;
-      font-size: 1rem;
-      cursor: pointer;
-      border: none;
-      border-radius: 5px;
-      background: #ff4c4c;
-      color: white;
-    }
-  </style>
-</head>
-
-<body>
-
-  <!-- Age Popup -->
-  <div id="age-warning">
-    <h1>Are you 18 or older?</h1>
-    <button onclick="acceptAge()">Yes, I am</button>
-  </div>
-
 
 Jerkyourbeat offers a new way of watching porn. It creates music videos for any music you like, using any porn you like. This combines the most enjoyable things in the world.
 
@@ -62,11 +24,3 @@ Jerkyourbeat offers a new way of watching porn. It creates music videos for any 
 
 	</div>
 
-  <script>
-    function acceptAge() {
-      document.getElementById("age-warning").style.display = "none";
-      document.getElementById("main-content").style.display = "block";
-    }
-  </script>
-
-</body>
