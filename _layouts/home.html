@@ -18,6 +18,7 @@
 
     /* Overlay */
     #age-warning {
+	display: none; /* hide by default */
       position: fixed;
       top: 0; left: 0;
       width: 100vw;
@@ -96,9 +97,8 @@
 
     <script>
     // Check if the user already accepted
-    if (localStorage.getItem("ageConfirmed") === "true") {
-      document.getElementById("age-warning").style.display = "none";
-      document.getElementById("main-content").style.display = "block";
+    if (localStorage.getItem("ageConfirmed") === "false") {
+      showAgeWarning();
     }
 
     function acceptAge() {
@@ -106,6 +106,10 @@
       document.getElementById("age-warning").style.display = "none";
       document.getElementById("main-content").style.display = "block";
     }
+
+function showAgeWarning() {
+    document.getElementById("age-warning").style.display = "flex";
+  }
   </script>
 
 </body>
