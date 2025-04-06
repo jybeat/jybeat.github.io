@@ -41,5 +41,3 @@ Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venen
     </video>
   </div>
 
-  {% include footer.html %}
-
