@@ -30,7 +30,7 @@ nav-menu: true
 <body>
 
   <div class="video-container">
-    <video controls autoplay muted>
+    <video controls autoplay muted loop>
       <source src="assets/videos/joi.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
