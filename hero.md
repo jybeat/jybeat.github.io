@@ -17,6 +17,7 @@ nav-menu: true
       width: 100%;
       max-width: 100%;
       height: auto;
+        max-height: 50%;
     }
 
     video {
@@ -25,7 +26,7 @@ nav-menu: true
       display: block;
     }
   </style>
-</head>
+
 <body>
 
   <div class="video-container">
