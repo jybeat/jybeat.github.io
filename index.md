@@ -8,6 +8,8 @@ author: null
 show_tile: false
 ---
 
+<head>
+
  /* Overlay */
     #age-warning {
       position: fixed;
@@ -34,6 +36,9 @@ show_tile: false
       color: white;
     }
   </style>
+</head>
+
+<body>
 
   <!-- Age Popup -->
   <div id="age-warning">
@@ -63,3 +68,5 @@ Jerkyourbeat offers a new way of watching porn. It creates music videos for any 
       document.getElementById("main-content").style.display = "block";
     }
   </script>
+
+</body>
