@@ -1,4 +1,10 @@
-
+---
+layout: post
+title: Privacy Policy
+description: Improve dance videos with porn
+image:
+nav-menu: true
+---
 
   <h1>Terms and Conditions</h1>
   <p><strong>Last Updated:</strong> April 8, 2025</p>
