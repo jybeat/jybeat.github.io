@@ -9,7 +9,7 @@ nav-menu: true
   <h1>Terms and Conditions</h1>
   <p><strong>Last Updated:</strong> April 8, 2025</p>
 
-  <p>Welcome to jerkyourbeat.com (“we,” “us,” or “our”). These Terms and Conditions (“Terms”) govern your access to and use of our website located at [jerkyourbeat.com] (the “Site”). By accessing or using the Site, you agree to be bound by these Terms. If you do not agree, please do not use the Site.</p>
+  <p>Welcome to jerkyourbeat.com (“we,” “us,” or “our”). These Terms and Conditions (“Terms”) govern your access to and use of our website located at jerkyourbeat.com (the “Site”). By accessing or using the Site, you agree to be bound by these Terms. If you do not agree, please do not use the Site.</p>
 
   <h2>1. Use of the Site</h2>
   <p>This Site is provided for <strong>informational purposes only</strong>. You may browse the content, download materials where explicitly permitted, and share links to the site content for non-commercial purposes.</p>
@@ -21,7 +21,7 @@ nav-menu: true
   <p>We do not offer user accounts or accept any form of user-submitted content. You may not attempt to post, upload, or submit any material to the Site.</p>
 
   <h2>4. Intellectual Property</h2>
-  <p>Unless otherwise stated, all content on the Site—including text, graphics, logos, and other materials—is the property of [jybeat] or its licensors and is protected by intellectual property laws. You may not reproduce, modify, or distribute any part of the Site without prior written permission.</p>
+  <p>Unless otherwise stated, all content on the Site—including text, graphics, logos, and other materials—is the property of jybeat or its licensors and is protected by intellectual property laws. You may not reproduce, modify, or distribute any part of the Site without prior written permission.</p>
 
   <h2>5. No Warranties</h2>
   <p>The Site is provided “as is” and “as available” without any warranties of any kind, express or implied. We do not guarantee that the Site will be uninterrupted, error-free, or secure.</p>
@@ -41,6 +41,6 @@ nav-menu: true
   <h2>10. Contact Us</h2>
   <p>If you have any questions or concerns about these Terms, you can contact us at:</p>
   <p>
-    [jybeat@protonmail.com]
+    jybeat@protonmail.com
   </p>
 
