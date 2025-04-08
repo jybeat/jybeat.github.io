@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Privacy Policy
-description: Improve dance videos with porn
+description:
 image:
 nav-menu: true
 ---
