@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Privacy Policy
+title: Terms and conditions
 description:
 image:
 nav-menu: true
