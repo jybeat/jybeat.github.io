@@ -12,7 +12,7 @@ By accessing the site you are consenting to our policies regarding the collectio
 
 We do not collect, store, use or share any information, personal or otherwise.
 
-<h1>Email</h1>
+<h2>Email</h2>
 
 If you email the developer for support or other feedback, the emails with email addresses will be retained for quality assurance purposes. The email addresses will be used only to reply to the concerns or suggestions raised and will never be used for any marketing purpose.
 
