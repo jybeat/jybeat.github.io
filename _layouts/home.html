@@ -129,11 +129,11 @@ function acceptAge() {
   }
 
   function showMainContent() {
-    document.getElementById("age-warning").style.display = "none !important";
+    document.getElementById("age-warning").style.setProperty("display", "none", "important");
   }
 
 function showAgeWarning() {
-    document.getElementById("age-warning").style.display = "flex !important";
+    document.getElementById("age-warning").style.setProperty("display", "flex", "important");
   }
   </script>
 
