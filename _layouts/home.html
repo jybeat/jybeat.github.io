@@ -109,6 +109,7 @@
 const AGE_CONFIRM_EXPIRY_HOURS = 24;
 
   function isAgeConfirmed() {
+    return false;
     const confirmed = localStorage.getItem("ageConfirmed");
     const confirmedAt = localStorage.getItem("ageConfirmedAt");
 
