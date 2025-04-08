@@ -7,7 +7,7 @@
 
 <section id="one" class="tiles">
   {% for tile in tiles limit:site.tiles-count %}
-    {% unless tile.image == "" %} 
+    {% unless tile.title == "Privacy Policy" or tile.title == "Terms and conditions" %} 
   <article>
     <span class="image">
       <img src="{{ tile.image }}" alt="{{ tile.title }}" />
