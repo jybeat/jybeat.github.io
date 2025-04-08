@@ -50,6 +50,7 @@
 <body>
 
 <div id="age-warning">
+    <p>This website contains age-restricted materials including nudity and explicit depictions of sexual activity. By entering, you affirm that you are at least 18 years of age or the age of majority in the jurisdiction you are accessing the website from and you consent to viewing sexually explicit content. </p>
     <h1>Are you 18 or older?</h1>
     <button onclick="acceptAge()">Yes, I am</button>
   </div>
@@ -127,11 +128,11 @@ function acceptAge() {
   }
 
   function showMainContent() {
-    document.getElementById("age-warning").style.display = "none";
+    document.getElementById("age-warning").style.display = "none !important";
   }
 
 function showAgeWarning() {
-    document.getElementById("age-warning").style.display = "flex";
+    document.getElementById("age-warning").style.display = "flex !important";
   }
   </script>
 
