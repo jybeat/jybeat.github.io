@@ -24,14 +24,11 @@ tiles-count: 6
 socials:
   GitHub: 
   Envelope: mailto:jybeat@protonmail.com
-  fa-patreon: https://patreon.com/jybeat
+  Patreon: https://patreon.com/jybeat
   GitLab:
-  Google-Plus:
   Instagram:
-  LinkedIn:
   Twitter:
   Facebook:
-  Slack:
 
 # build settings
 markdown: kramdown
