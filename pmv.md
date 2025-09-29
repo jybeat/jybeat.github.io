@@ -6,7 +6,7 @@ image: assets/images/logo2.png
 nav-menu: true
 ---
 
-Jerkyourbeat creates high quality porn music videos. Listen to the songs you like while watching your favorite porn totally in sync! No information about music or videos is shared at all, so go ahead and give it a try!
+Jerkyourbeat creates high quality porn music videos. Listen to the songs you like while watching your favorite porn totally in sync!
 
 <style>
     .video-container {
@@ -31,3 +31,4 @@ Jerkyourbeat creates high quality porn music videos. Listen to the songs you lik
       Your browser does not support the video tag.
     </video>
   </div>
+
