@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jerkyourbeat</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    /* Overlay */
+    #age-warning {
+      display: none !important; /* hide by default */
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.9);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      z-index: 9999;
+    }
+
+    #age-warning button {
+      margin-top: 1em;
+      padding: 0.75em 1.5em;
+      font-size: 1rem;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      background: #ff4c4c;
+      color: white;
+    }
+  </style>
+</head>
+
+{% include head.html %}
+
+<body>
+
+<div id="age-warning">
+    <p style="margin: 30px;">This website contains age-restricted materials including nudity. By entering, you affirm that you are at least 18 years of age or the age of majority in the jurisdiction you are accessing the website from and you consent to viewing sexually explicit content.</p>
+    <button onclick="acceptAge()">Confirm</button>
+  </div>
+
+    {% include header.html %}
+
+    <!-- Banner -->
+    <section id="banner" class="major">
+        <div class="inner">
+            <header class="major">
+                <h1>{{ page.landing-title }}</h1>
+            </header>
+            <div class="content">
+                <p style="text-transform: uppercase;">{{ site.description }}</p>
+                <ul class="actions">
+                    <li><a href="#one" class="button next scrolly">Get Started</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- One -->
+        {% include tiles.html %}
+
+        <!-- Two -->
+        <section id="two">
+            <div class="inner">
+                <header class="major">
+                    <h2>About</h2>
+                </header>
+                <p>{{ content }}</p>
+                <ul class="actions">
+                    <li><a href="landing.html" class="button next">Get Started</a></li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+
+    {% include footer.html %}
+
+    <script>
+    // Run this after DOM is loaded
+    window.addEventListener("DOMContentLoaded", () => {
+    if (isAgeConfirmed()) {
+      showMainContent();
+    } else {
+      showAgeWarning();
+    }
+  });
+
+const AGE_CONFIRM_EXPIRY_HOURS = 24;
+
+  function isAgeConfirmed() {
+    const confirmed = localStorage.getItem("ageConfirmed");
+    const confirmedAt = localStorage.getItem("ageConfirmedAt");
+
+    if (!confirmed || !confirmedAt) return false;
+
+    const now = Date.now();
+    const timeDiff = now - parseInt(confirmedAt, 10);
+    const hoursPassed = timeDiff / (1000 * 60 * 60);
+
+    return confirmed === "true" && hoursPassed < AGE_CONFIRM_EXPIRY_HOURS;
+  }
+
+function acceptAge() {
+    localStorage.setItem("ageConfirmed", "true");
+    localStorage.setItem("ageConfirmedAt", Date.now().toString());
+    showMainContent();
+  }
+
+  function showMainContent() {
+    document.getElementById("age-warning").style.setProperty("display", "none", "important");
+  }
+
+function showAgeWarning() {
+    document.getElementById("age-warning").style.setProperty("display", "flex", "important");
+  }
+  </script>
+
+</body>
+
+</html>
