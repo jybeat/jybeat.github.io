@@ -9,7 +9,7 @@ show_tile: false
 ---
 
 
-Jerkyourbeat offers a new way of watching porn. It creates music videos for any music you like, using any porn you like. This combines the most enjoyable things in the world.
+Jerkyourbeat offers a new way of watching porn. It creates music videos for any song you like, using any porn you like. This combines the most enjoyable things in the world.
 
 <div class="6u 12u$(small)">
 
@@ -25,4 +25,5 @@ Jerkyourbeat offers a new way of watching porn. It creates music videos for any 
 		</ul>
 
 	</div>
+
 
